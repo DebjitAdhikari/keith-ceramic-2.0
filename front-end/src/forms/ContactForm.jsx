@@ -1,4 +1,8 @@
+import { useEffect, useState } from "react";
+import FetchAboutHeading from "../services/AboutPage/FetchAboutHeading";
+
 function ContactForm() {
+    
     return (
         <main className="p-4 sm:p-6 bg-gray-50 min-h-screen">
           {/* Form container */}
